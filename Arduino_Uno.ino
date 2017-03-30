@@ -6,6 +6,7 @@ int range[5];
 int i;
 void setup()
 {
+//pins for attaching the servos
   n[0].attach(3);
   n[1].attach(5);
   n[2].attach(6);
@@ -19,6 +20,7 @@ void loop()
   {
     for(i=0;i<=4;i++)
     {
+//reads the series data send by Arduino Lilypad and moves the servos accordingly.
       range[i]=uno.read();
       n[i].write(range[i]);
     }

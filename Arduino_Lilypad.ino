@@ -13,7 +13,8 @@ void loop()
  for(i=0;i<=4;i++)
  {
    flex[i]=analogRead(flexpin[i]);
-   servorange[i]=map(flex[i],_,_,0,180);//range of flex sensor to be caliberated
+//range of flex sensor to be caliberated
+   servorange[i]=map(flex[i],_,_,0,180);
    constrain(servorange[i],0,180);
    lilypad.println(servorange[i]);
  }
