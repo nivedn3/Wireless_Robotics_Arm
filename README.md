@@ -1,5 +1,5 @@
 # Wireless_Robotics_Arm
-Controlling a remote mechanical arm with your hands movement seems to be cool.But implementing it is not that difficult. This is a cool electronics project done by me in my first year at IIT Madras. 
+Controlling a mechanical arm remotely with your hand movement seems to be cool.But implementing it is not that difficult. This is a cool electronics project done by me in my first year at IIT Madras. 
 The components that you require 
 1. Arduino Uno Microcontroller(for controlling servo motors the mechanical arm)
 2. Arduino Lilypad Microcontroller (for attaching on glove).
